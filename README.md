@@ -7,6 +7,7 @@ Zhihua Wang*, Stefano Rosa*, Bo Yang, Sen Wang, Niki Trigoni, Andrew Markham. In
 </p>
 
 <p align="center">
+  <img src="http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/landingheading.jpg">
   <img src="http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/baymax.gif">
   <img src="http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/bridge.gif">  
 </p>
