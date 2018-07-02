@@ -2,8 +2,10 @@
 Zhihua Wang*, Stefano Rosa*, Bo Yang, Sen Wang, Niki Trigoni, Andrew Markham. In IJCAI 2018. <br />
 (* indicates equal contributions)
 
-![Teaser_Image](http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/baymax.gif)
+![Teaser_Image](http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/landingheading.jpg)
 
+![Teaser_Image](http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/baymax.gif)
+![Teaser_Image](http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/bridge.gif)
 ## Full Paper
 [https://arxiv.org/abs/1805.00328](https://arxiv.org/abs/1805.00328)
 
