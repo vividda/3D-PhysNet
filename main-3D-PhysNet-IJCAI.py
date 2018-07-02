@@ -2,34 +2,6 @@
 #
 # @author: Zhihua Wang
 
-
-"""
-1, Before run this file, environment needs to be updated - adding follow line to $HOME/.bashrc
-    export LD_LIBRARY_PATH="/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH"
-   Run pycharm in Terminal $HOME/.bash_aliases
-2, Setup power limit
-    sudo nvidia-smi -pl 125
-   Persistence Mode
-    sudo nvidia-smi -pm ENABLED
-"""
-
-
-
-"""
-Run on Google compute
-1, Run in google compute
-    sudo /home/zhiang/google-cloud-sdk/bin/gcloud compute --project "defo-calvin" ssh --zone "europe-west1-d" "instance-2"
-2, Activate google compute tensorflow
-    source targetDirectory/bin/activate
-3, Download from google compute to desktop
-    sudo /home/zhiang/google-cloud-sdk/bin/gcloud compute scp --recurse --zone "europe-west1-d" "instance-2":/home/v5.2  ~/Desktop
-4, Upload from desktop to google compute
-    sudo /home/zhiang/google-cloud-sdk/bin/gcloud compute scp --recurse
-    /home/zhiang/PycharmProjects/pix2pix-tensorflow/v5.2\ \(conditional\ 3D\ gan\)  instance-2:/home/             --zone europe-west1-d
-5, Install Sublime SFTP, Set up
-    "ssh_key_file": "~/.ssh/google_compute_engine",
-"""
-
 import os
 import shutil
 import tensorflow as tf
@@ -372,10 +344,7 @@ def main():
                                             epsilon=1e-8).minimize(ae_gan_g_loss, var_list=ae_var)
         dis_optim = tf.train.AdamOptimizer(learning_rate=lr,beta1=0.9,beta2=0.999,
                                            epsilon=1e-8).minimize(gan_d_loss,var_list=dis_var)
-        # ae_g_optim = tf.train.GradientDescentOptimizer(learning_rate=lr).minimize(ae_gan_g_loss,
-        #                                                                           var_list=ae_var)
-        # dis_optim = tf.train.GradientDescentOptimizer(learning_rate=lr).minimize(gan_d_loss,
-        #                                                                          var_list=dis_var)
+
 
     print tools.Ops.variable_count()
     merged_summary = tf.summary.merge_all('loss_summary')
@@ -455,7 +424,6 @@ def main():
                 iteration = (epoch - start_epoch) * train_batches_per_epoch + (i + 1)
 
                 # Power Concern
-                # sum_writer_train.add_run_metadata(run_metadata, 'step%03d' % (iteration))
                 sum_writer_train.add_summary(summary_sess, iteration)
 
 
@@ -524,8 +492,6 @@ def main():
                         " IOU: %.4f"%IOU
                     print "evaluation result saved"
 
-            #### full testing
-            # ...
 
             #### model saving
             if epoch % 50 == 0:

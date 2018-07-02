@@ -1,22 +1,6 @@
 import tensorflow as tf
 
 
-
-# def metric_IoU(self, batch_voxel_occup_pred, batch_voxel_occup_true):
-#     batch_voxel_occup_pred_ = copy.deepcopy(batch_voxel_occup_pred)
-#
-#     batch_voxel_occup_pred_[batch_voxel_occup_pred_ >= 0.5] = 1
-#     batch_voxel_occup_pred_[batch_voxel_occup_pred_ < 0.5] = 0
-#
-#     I = batch_voxel_occup_pred_ * batch_voxel_occup_true
-#     U = batch_voxel_occup_pred_ + batch_voxel_occup_true
-#     U[U < 1] = 0
-#     U[U >= 1] = 1
-#
-#     iou = np.sum(I) * 1.0 / np.sum(U) * 1.0
-#     return iou
-
-
 class Ops:
 
     @staticmethod
