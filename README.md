@@ -6,8 +6,11 @@ Zhihua Wang*, Stefano Rosa*, Bo Yang, Sen Wang, Niki Trigoni, Andrew Markham. In
   <img src="http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/landingheading.jpg">
 </p>
 
-![Teaser_Image](http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/baymax.gif)
-![Teaser_Image](http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/bridge.gif)
+<p align="center">
+  <img src="http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/baymax.gif">
+  <img src="http://intuitivephysics.cs.ox.ac.uk/3dphysnet/index_files/bridge.gif">  
+</p>
+
 ## Full Paper
 [https://arxiv.org/abs/1805.00328](https://arxiv.org/abs/1805.00328)
 
