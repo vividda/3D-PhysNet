@@ -31,9 +31,9 @@ python main-3D-PhysNet-IJCAI.py
 If you use the paper, code or data for your research, please cite:
 ```
 @inproceedings{3dphysnet,
-  title = "3D-PhysNet: Learning the Intuitive Physics of Non-Rigid Object Deformations",
-  author = "Z Wang, S Rosa, B Yang, S Wang, N Trigoni and A Markham",
-  year = "2018",
-  booktitle = "Intl Joint Conference on Artificial Intelligence (IJCAI)",
-  journal =  "Intl Joint Conference on Artificial Intelligence (IJCAI)"
+  title = {3D-PhysNet: Learning the Intuitive Physics of Non-Rigid Object Deformations},
+  author = {Z. Wang, S. Rosa, B. Yang, S. Wang, N. Trigoni and A. Markham},
+  year = {2018},
+  booktitle = {Intl Joint Conference on Artificial Intelligence (IJCAI)},
+  journal =  {Intl Joint Conference on Artificial Intelligence (IJCAI)}
 }
